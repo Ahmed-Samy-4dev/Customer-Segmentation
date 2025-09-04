@@ -28,7 +28,8 @@ It applies **Machine Learning models** such as **KMeans** and **DBSCAN**, using 
 - **DBSCAN** → Captured outliers, but struggled with defining well-separated clusters in this dataset.
 
 🏆 **Conclusion:**
-KMeans performed best for customer segmentation, providing reliable and business-friendly groupings.
+- While KMeans takes the number of clusters and assigns all points to the nearest cluster, DBSCAN calculates densities of areas around the point.
+- ✅KMeans performed best for customer segmentation, providing reliable and business-friendly groupings.
 
 ---
 
