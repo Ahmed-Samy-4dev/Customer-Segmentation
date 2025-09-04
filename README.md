@@ -23,14 +23,12 @@ It applies **Machine Learning models** such as **KMeans** and **DBSCAN**, using 
 
 ---
 
-## 📈 Results
-| Model                 | MAE   | MSE   | R2-score | 
-|-----------------------|-------|-------|----------| 
-| Linear Regression     | ~1.25 | ~4.45 | ~0.67    | 
-| Polynomial Regression | ~1.26 | ~4.49 | ~0.66    | 
+## 🤖 Models Trained
+- **KMeans** → Produced clear, balanced clusters (better interpretability).
+- **DBSCAN** → Captured outliers, but struggled with defining well-separated clusters in this dataset.
 
 🏆 **Conclusion:**
-Linear Regression performed slightly better due to the linear relationship of features.
+KMeans performed best for customer segmentation, providing reliable and business-friendly groupings.
 
 ---
 
